@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creating Page</title>
+    <style>
+        fieldset{
+            background-color: rgb(249, 229, 189);
+        }
+    </style>
+</head>
+<body>
+
+    <fieldset>
+        <legend><strong>Create Account</strong></legend>
+        <form action="./day7t.html">
+            <label for="fname">Firstname :</label>
+        <input type="text" placeholder="eg: sss" name="fname" id="firstname" required><br><br>
+        <label for="sname">Second name :</label>
+        <input type="text" placeholder="eg: www" name="sname" id="secondname" required><br><br>
+        <label for="pasw">Enter new password :</label>
+        <input type="password" placeholder="ex: ASDasd123" name="pasw" id="pasw" ><br><br>
+        <label for="pasww">Re-Enter password :</label>
+        <input type="text" placeholder="(same as new password)" name="pasww" id="pasww" ><br><br>
+        <label for="mail">Enter E-mail id :</label>
+        <input type="email" name="mail" id="mail" placeholder="asdddffff@gmail.com"><br><br>
+        <label for="pnum">Enter Mobile Number :</label>
+        <input type="tel" name="pnum" id="mobile" pattern="[0-9]{10}" placeholder="eg :9586756875"><br><br>
+        <label for="panum">Enter Mobile Number in pattern :</label>
+        <input type="tel" name="panum" id="pmobile" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="eg :958-675-6875"><br><br>
+        <label for="dob">Enter Date of Birth :</label>
+        <input type="date" name="dob" id="dob" ><br><br>
+        <label for="pannum">Enter PAN Number :</label>
+        <input type="tel" name="pannum" id="mobile" pattern="[A-Z]{4}-[0-9]{5}" placeholder="eg :SDAE-56875"><br><br>        
+        <label for="ggg">time :</label>
+        <input type="time" name="ggg" id="time"><br><br> 
+        <label for="gg">date :</label>
+        <input type="date" name="gg" id="date"><br><br>
+
+
+        <label for="gender">Choose Gender :</label><br><br>
+        <input type="radio" name="gender" value="male" >male<br>
+        <input type="radio" name="gender" value="female" >female<br>
+        <input type="radio" name="gender" value="other" >other<br>
+        <hr>
+        <input type="checkbox" name="Check The Details Once" value="Check The Details Once" required>Check The Details Once       <input  type="submit" >
+
+        </form>
+    </fieldset>
+</body>
+</html>
